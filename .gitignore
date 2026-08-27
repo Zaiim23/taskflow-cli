@@ -1,0 +1,13 @@
+# Compiled program
+taskflow.exe
+taskflow
+
+# Object files
+*.o
+
+# Visual Studio Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.log

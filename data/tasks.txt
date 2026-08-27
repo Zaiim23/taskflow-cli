@@ -1,0 +1,3 @@
+1|Finish C assignment|Complete and review the remaining exercises|HIGH|0
+2|Update GitHub profile|Add a short bio and relevant skills|MEDIUM|0
+3|Read programming notes|Review pointers and file handling|LOW|1
