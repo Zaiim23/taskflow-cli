@@ -1,5 +1,7 @@
 # TaskFlow CLI
 
+[![CI](https://github.com/Zaiim23/taskflow-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Zaiim23/taskflow-cli/actions/workflows/ci.yml)
+
 TaskFlow CLI is a simple command-line task manager written in C. It allows users to create, view, search, update, and delete tasks while storing the data in a local text file.
 
 The project was created to practise core C programming concepts such as structs, arrays, pointers, file handling, input validation, and modular program design.
@@ -29,8 +31,12 @@ taskflow/
 │   ├── main.c
 │   ├── storage.c
 │   └── task.c
+├── .github
+│   └── workflows
+│       └── ci.yml
 ├── .gitattributes
 ├── .gitignore
+├── LICENSE
 ├── Makefile
 └── README.md
 ```
@@ -94,6 +100,22 @@ To build the project, you need:
 - A terminal such as PowerShell, MSYS2, or a Unix-compatible shell
 
 ## Build Instructions
+
+### Build with Make
+
+If Make is installed, build the program from the project directory with:
+
+```bash
+make
+```
+
+This produces the `taskflow` executable. Remove build output with:
+
+```bash
+make clean
+```
+
+### Build with GCC directly
 
 Open a terminal in the project directory and compile the program with GCC:
 
